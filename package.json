@@ -1,0 +1,32 @@
+{
+	"name": "jordan-scrapes-with-puppeteer",
+	"version": "1.0.0",
+	"description": "Examples of puppeteer use.",
+	"main": "./dist/index.js",
+	"scripts": {
+		"start": "tsc && node ./dist/index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/aarmora/jordan-scrapes-with-puppeteer.git"
+	},
+	"keywords": [
+		"typescript",
+		"puppeteer",
+		"javascript",
+		"web-scraping"
+	],
+	"author": "Jordan Hansen",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/aarmora/jordan-scrapes-with-puppeteer/issues"
+	},
+	"homepage": "https://github.com/aarmora/jordan-scrapes-with-puppeteer#readme",
+	"devDependencies": {
+		"@types/puppeteer": "^1.20.2",
+		"typescript": "^3.6.4"
+	},
+	"dependencies": {
+		"puppeteer": "^1.20.0"
+	}
+}
